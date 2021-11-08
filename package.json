@@ -1,0 +1,34 @@
+{
+  "name": "netprogfr-dark-theme",
+  "displayName": "Netprogfr Dark Theme",
+  "description": "Dark theme with high contrast (tested with a WCAG tool).",
+  "version": "0.0.1",
+  "publisher": "netprogfr",
+  "engines": {
+      "vscode": "^1.62.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "Netprogfr Dark Theme",
+              "uiTheme": "vs-dark",
+              "path": "./themes/NetprogfrDarkTheme-color-theme.json"
+          }
+      ]
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/netprogfr/netprogfr-dark-theme"
+	},
+  "keywords": [
+		"vscode",
+		"theme",
+		"dark",
+		"wcag"
+	],
+  "author": "Jérôme Bouquet (https://netprog.fr)",
+	"license": "MIT"
+}
